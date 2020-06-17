@@ -1,5 +1,6 @@
 <template>
-  <div class="son">111111111111111111111111
+  <div class="asbdhvba">111111111111111111111111
+    <div>1111111111</div>
   </div>
 </template>
 
@@ -10,7 +11,8 @@ export default {
     return {
 
     }
-  },mounted () {
+  },
+  mounted () {
     console.log(1111111)
   }
 }
@@ -19,7 +21,7 @@ export default {
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped lang="less">
 @r:1rem/37.5;
-.son{
+.asbdhvba{
 	height: 100%;
 	width: 275*@r;
 	display: flex;

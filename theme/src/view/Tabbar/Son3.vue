@@ -1,5 +1,5 @@
 <template>
-  <div class="son">111111111111111111111111333333333333333333
+  <div class="dfsfsf">111111111111111111111111333333333333333333
     <div class="box1">试一试 </div>
     <div class="box">我成功了 </div>
     <p class="p1"></p>
@@ -10,6 +10,10 @@
     <span class="span1">1111111111111
       <span>2222222222222</span>
     </span>
+    <em class="em1"></em>
+    <em class="em2">222222222222222222</em>
+    <em class="em3"></em>
+
   </div>
 </template>
 
@@ -24,9 +28,11 @@ export default {
 </script>
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped lang="less">
+@import './css/index.less';
 @color:multiply(#ff6600, #333333);//颜色混合必须是六位
+@r:1rem/37.5;
 // @color:red;
-.son{
+.dfsfsf{
 	height: 80%;
 	width: 100%;
 	display: flex;
@@ -49,10 +55,6 @@ export default {
 .p3 {
   &:extend(.span1 all);
 }
-
-// .aa{
-//   font-weight: 900;
-// }
 .span1 {
   color: red;
   span {
@@ -69,5 +71,7 @@ export default {
 // .p3 .span2 {
 //   color: green;
 // }
+.em1{
 
+}
 </style>
