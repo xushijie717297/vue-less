@@ -1,7 +1,7 @@
 <template>
   <div class="son">111111111111111111111111333333333333333333
     <div class="box1">试一试 </div>
-    <div class="box"> </div>
+    <div class="box">我成功了 </div>
     <p class="p1"></p>
     <p class="p2"></p>
     <p class="p3">1111111
