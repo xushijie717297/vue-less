@@ -18,7 +18,7 @@ Vue.use(Router)
 export default new Router({
   routes: [
     {
-      path: '/HelloWorld',
+      path: '/',
       name: 'HelloWorld',
       component: HelloWorld
     },
@@ -38,7 +38,7 @@ export default new Router({
 		  component: Other
 		},
 		{
-		  path: '/',
+		  path: '/Blooming',
 		  name: 'Blooming',
 		  component: Blooming
 		},

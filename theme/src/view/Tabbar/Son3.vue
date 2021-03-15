@@ -2,7 +2,7 @@
   <div class="dfsfsf">111111111111111111111111333333333333333333
     <div class="box1">试一试 </div>
     <div class="box">我成功了 </div>
-    <p class="p1"></p>
+    <p class="p1">失败/</p>
     <p class="p2"></p>
     <p class="p3">1111111
       <span>2222222</span>
@@ -13,7 +13,15 @@
     <em class="em1"></em>
     <em class="em2">222222222222222222</em>
     <em class="em3"></em>
-
+<div class="container">
+      <h3>Welcome to W3Cschool</h3>
+      <div class="style">
+      <ul class="nav">
+         <li>SASS </li>
+         <li>LESS</li>
+      </ul>
+      </div>
+   </div>
   </div>
 </template>
 
@@ -52,9 +60,12 @@ export default {
   height: 50px;
   width: 50px;
 }
-.p3 {
-  &:extend(.span1 all);
-}
+// .p3 {
+//   &:extend(.span1 all);
+// }
+// .p3:extend(.span1 all){
+//   line-height: 20px;
+// }
 .span1 {
   color: red;
   span {
@@ -71,7 +82,21 @@ export default {
 // .p3 .span2 {
 //   color: green;
 // }
-.em1{
 
+
+.style.nav,
+.nav h3 {
+  color: red;
+}
+.nav {
+  &:hover {
+    color: green;
+  }
+}
+// .container {
+//   &:extend(.nav all)
+// }
+.container:extend(.nav all) {
+  line-height: 20px;
 }
 </style>
